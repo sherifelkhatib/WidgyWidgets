@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/mobi.sherif.widgywidgetstest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <mobi.sherif.widgywidgets.EditTextWithCustomError
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        app:ErrorTextColor="#f00"
+        app:ErrorDefaultBackground="@android:drawable/alert_light_frame"
+        app:ErrorDefaultBackgroundAbove="@android:drawable/alert_dark_frame"
+        app:ErrorDefaultIcon="@drawable/ic_launcher"
+        android:lines="1" />
+
+    <Button
+        android:layout_above="@+id/inputerror"
+        android:onClick="onShowError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show the error" />
+
+    <EditText
+        android:id="@+id/inputerror"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_xlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the error" />
+
+</RelativeLayout>

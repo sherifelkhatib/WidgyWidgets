@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextWithCustomError">
+
+        <!-- A default icon to show as a drawable Right -->
+        <attr name="ErrorDefaultIcon" format="reference|color" />
+        
+        <!-- A drawable to use as the background of the Error when above -->
+        <attr name="ErrorDefaultBackgroundAbove" format="reference|color" />
+        
+        <!-- A drawable to use as the background of the Error when not above -->
+        <attr name="ErrorDefaultBackground" format="reference|color" />
+        
+		<!-- Text Color of the error message -->
+        <attr name="ErrorTextColor" format="reference|color" />
+
+    </declare-styleable>
+
+</resources>
