@@ -16,4 +16,8 @@ public class MainActivity extends Activity {
 	public void onEditTextWithCustomError(View v) {
 		startActivity(new Intent(this, EditTextWithCustomErrorActivity.class));
 	}
+
+	public void onKnobView(View v) {
+		startActivity(new Intent(this, KnobViewActivity.class));
+	}
 }

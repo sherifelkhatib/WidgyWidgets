@@ -25,6 +25,9 @@
         <activity
             android:name="mobi.sherif.widgywidgetstest.EditTextWithCustomErrorActivity"
             android:label="@string/app_name" />
+        <activity
+            android:name="mobi.sherif.widgywidgetstest.KnobViewActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

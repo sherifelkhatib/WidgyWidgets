@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/mobi.sherif.widgywidgetstest"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <mobi.sherif.widgywidgets.KnobView
+        android:id="@+id/knob1"
+        android:background="@drawable/bg_knobview"
+        app:knob="@drawable/bg_knob"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="100dip"
+        android:layout_marginBottom="100dip" />
+    <mobi.sherif.widgywidgets.KnobView
+        android:id="@+id/knob2"
+        android:background="#0f0"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:knob="@drawable/ic_launcher" />
+</LinearLayout>
