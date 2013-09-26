@@ -20,4 +20,8 @@ public class MainActivity extends Activity {
 	public void onKnobView(View v) {
 		startActivity(new Intent(this, KnobViewActivity.class));
 	}
+
+	public void onDraggableGridView(View v) {
+		startActivity(new Intent(this, DraggableGridViewActivity.class));
+	}
 }

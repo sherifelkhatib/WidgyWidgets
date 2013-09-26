@@ -18,5 +18,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="KnobView" />
+    <Button
+        android:onClick="onDraggableGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DraggableGridView" />
 
 </LinearLayout>
